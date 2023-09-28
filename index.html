@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab</title>
+    <link rel="stylesheet" href="assets/css/input.css">
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body class="w-screen h-screen bg-slate-200 flex justify-center content-start flex-wrap">
+    <section class="w-screen md:w-[500px]  md:h-[300px] flex flex-col md:flex-row flex-wrap justify-start pt-10 md:justify-center md:items-center space-y-10 md:space-y-0">
+        <h1 class="font-bold flex justify-center after:h-[6px] after:bg-yellow-600 after:content-[''] after:absolute after:w-[100px] after:md:w-[150px] after:translate-y-14 capitalize text-3xl md:text-5xl text-blue-900 tracking-widest">
+            our menu
+        </h1>
+        <div class="w-full flex-wrap flex justify-center space-x-2 md:space-y-0 md:space-x-0 md:justify-between">
+            <li class="mb-3 md:mb-0 flex-grow-1 px-3 py-1 text-md border border-yellow-400 shadow-sm shadow-blue-900 capitalize list-none font-bold rounded-md hover:cursor-pointer text-yellow-600" data-type="-1">all</li>
+            <li class="mb-3 md:mb-0 flex-grow-1 px-3 py-1 text-md border border-yellow-400 shadow-sm shadow-blue-900 capitalize list-none font-bold rounded-md hover:cursor-pointer text-yellow-600" data-type="0">breakfast</li>
+            <li class="mb-3 md:mb-0 flex-grow-1 px-3 py-1 text-md border border-yellow-400 shadow-sm shadow-blue-900 capitalize list-none font-bold rounded-md hover:cursor-pointer text-yellow-600" data-type="1">pizza</li>
+            <li class="mb-3 md:mb-0 flex-grow-1 px-3 py-1 text-md border border-yellow-400 shadow-sm shadow-blue-900 capitalize list-none font-bold rounded-md hover:cursor-pointer text-yellow-600" data-type="2">shakes</li>
+        </div>
+    </section>
+    <section class="container px-2 grid grid-cols-1 md:grid-cols-2 gap-2">
+        <div data-type="0" class="flex justify-between min-h-[100px] md:min-h-[200px] border-slate-300 border">
+            <figure class="w-1/3 border-2 border-yellow-500 flex items-center">
+                <img class="w-full px-1" src="assets/img/pngimg.com - pizza_PNG44087.png" alt="">
+            </figure>
+            <div class="w-full border-2  flex justify-center content-start items-start py-2 flex-wrap">
+                <h4 class="text-2xl text-center font-bold text-blue-700 uppercase">peperoney pizza</h4>
+                <span class="w-full text-2xl text-yellow-700 font-bold text-center"> 3.22 $</span>
+                <p class="px-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi commodi quidem voluptatem, explicabo suscipit molestiae! Quia culpa eos, explicabo totam doloremque eveniet exercitationem at atque nihil, expedita architecto ipsa pariatur?</p>
+            </div>
+        </div>
+        <div data-type="1" class="flex justify-between min-h-[100px] md:min-h-[200px] border-slate-300 border">
+            <figure class="w-1/3 border-2 border-yellow-500 flex items-center">
+                <img class="w-full px-1" src="assets/img/pngimg.com - breakfast_PNG13.png" alt="">
+            </figure>
+            <div class="w-full border-2  flex justify-center content-start items-start py-2 flex-wrap">
+                <h4 class="text-2xl text-center font-bold text-blue-700 uppercase">tomato egg breakfast</h4>
+                <span class="w-full text-2xl text-yellow-700 font-bold text-center"> 2.22 $</span>
+                <p class="px-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi commodi quidem voluptatem, explicabo suscipit molestiae! Quia culpa eos, explicabo totam doloremque eveniet exercitationem at atque nihil, expedita architecto ipsa pariatur?</p>
+            </div>
+        </div>
+        <div data-type="0" class="flex justify-between min-h-[100px] md:min-h-[200px] border-slate-300 border">
+            <figure class="w-1/3 border-2 border-yellow-500 flex items-center">
+                <img class="w-full px-1" src="assets/img/pngimg.com - pizza_PNG44077.png" alt="">
+            </figure>
+            <div class="w-full border-2  flex justify-center content-start items-start py-2 flex-wrap">
+                <h4 class="text-2xl text-center font-bold text-blue-700 uppercase">special pizza</h4>
+                <span class="w-full text-2xl text-yellow-700 font-bold text-center"> 4.22 $</span>
+                <p class="px-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi commodi quidem voluptatem, explicabo suscipit molestiae! Quia culpa eos, explicabo totam doloremque eveniet exercitationem at atque nihil, expedita architecto ipsa pariatur?</p>
+            </div>
+        </div>
+        <div data-type="1" class="flex justify-between min-h-[100px] md:min-h-[200px] border-slate-300 border">
+            <figure class="w-1/3 border-2 border-yellow-500 flex items-center">
+                <img class="w-full px-1" src="assets/img/pngimg.com - breakfast_PNG20.png" alt="">
+            </figure>
+            <div class="w-full border-2  flex justify-center content-start items-start py-2 flex-wrap">
+                <h4 class="text-2xl text-center font-bold text-blue-700 uppercase">special breakfast</h4>
+                <span class="w-full text-2xl text-yellow-700 font-bold text-center"> 1.22 $</span>
+                <p class="px-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi commodi quidem voluptatem, explicabo suscipit molestiae! Quia culpa eos, explicabo totam doloremque eveniet exercitationem at atque nihil, expedita architecto ipsa pariatur?</p>
+            </div>
+        </div>
+        <div data-type="2" class="flex justify-between min-h-[100px] md:min-h-[200px] max-h-[300px] border-slate-300 border">
+            <figure class="w-1/3 border-2 border-yellow-500 flex items-center">
+                <img class="w-full max-h-full px-1" src="assets/img/pngaaa.com-2339859.png" alt="">
+            </figure>
+            <div class="w-full border-2  flex justify-center content-start items-start py-2 flex-wrap">
+                <h4 class="text-2xl text-center font-bold text-blue-700 uppercase">second milkshake</h4>
+                <span class="w-full text-2xl text-yellow-700 font-bold text-center"> 1.22 $</span>
+                <p class="px-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi commodi quidem voluptatem, explicabo suscipit molestiae! Quia culpa eos, explicabo totam doloremque eveniet exercitationem at atque nihil, expedita architecto ipsa pariatur?</p>
+            </div>
+        </div>
+        <div data-type="2" class="flex justify-between min-h-[100px] md:min-h-[200px] max-h-[300px] border-slate-300 border">
+            <figure class="w-1/3 border-2 border-yellow-500 flex items-center">
+                <img class="w-full max-h-full px-1" src="assets/img/pngaaa.com-2339720.png" alt="">
+            </figure>
+            <div  class="w-full border-2  flex justify-center content-start items-start py-2 flex-wrap">
+                <h4 class="text-2xl text-center font-bold text-blue-700 uppercase">first milkshake</h4>
+                <span class="w-full text-2xl text-yellow-700 font-bold text-center"> 1.22 $</span>
+                <p class="px-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi commodi quidem voluptatem, explicabo suscipit molestiae! Quia culpa eos, explicabo totam doloremque eveniet exercitationem at atque nihil, expedita architecto ipsa pariatur?</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
